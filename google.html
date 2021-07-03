@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form id="google">
+                <h2>Google</h2>
+                <h2>Create Google Account</h2>
+                <h5>to continue to Gmail</h5>
+                <br><br>
+                <input type="text" name="firstname" placeholder="first name" id="firstname">
+                
+                <input type="text" name="lastname" placeholder="last name" id="lastname">
+                <div id="message" class="text-danger"></div><br>
+                
+                
+             
+                <input type="text" name="username" placeholder="Username    @gmail.com" id="username"><br><br>
+                <div id="messages" class="text-danger"></div>
+                
+                <input type="text" name="password" placeholder="Password" id="password">
+                <input type="text" name="password" placeholder="Confirm" id="confirm">
+                <div id="pa" class="text-danger"></div><br><br>
+                <input type="checkbox" name="checkbox" value="showpassword" id="cpassword">Show password<br><br>
+                <a href="#">sign in instead</a>
+                <input class="m-5"type="submit" name="next" value="next" id="next">
+            </form>
+            <script src="js/google.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Lesson</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        
+        <link rel="stylesheet" href="css/todo.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <body>
+            <div class="container bg-primary">
+                <h2>TODO LIST</h2>
+                <h3>Add Item</h3>
+                <p>
+                    <input id="new-task" type="text"><button id="addbtn">Add</button>
+                </p>
+        
+                <h3>Todo</h3>
+                <ul id="incomplete-tasks" class="incomplete-tasks">
+                    <li><input type="checkbox">
+                        <label>Go to Clinic</label>
+                        <input type="text">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </li>
+                    <li><input type="checkbox"><label>Go Shopping</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                </ul>
+        
+                <h3>Completed</h3>
+                <ul id="completed-tasks" class="completed-tasks">
+                    <li><input type="checkbox" checked><label>Create Template</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                </ul>
+            </div>
+        
+        
+        <script src="js/todo.js"></script>
+    </body>
+</html>

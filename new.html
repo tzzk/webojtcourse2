@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Lessons</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/domlesson1.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+   
+    <div class="container mt-4">
+        <div class="card card-body">
+            <h2>Our products</h2>
+            <form id="item_form"> 
+                <input type="text" id="item_name">
+                <input type="submit" value="Add Item" class="bg-primary text-white">
+                <div id="message"class="text-danger"></div>
+            </form>
+            <h2>Items</h2>
+            <ul id="item" class="list-group">
+                <li id="one" class="list-group-item">Item 1</li>
+                <li id="two" class="list-group-item">Item 2</li>
+                <li id="three" class="list-group-item">Item 3</li>
+                <li id="four" class="list-group-item">Item 4</li>
+            </ul>
+
+        </div>
+        <div class="container mt-5 d-grid gap-2">
+            <button type="button" class="btn btn-dark" id="remove">Remove</button>
+            <button type="button" class="btn btn-dark" id="add">Edit</button>
+        </div>
+    </div>
+    <script src="js/new.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 6: Events - Form Events</title>
+    <link rel="stylesheet" href="css/gymform.css" />
+  </head>
+  <body>
+    <div id="page">
+      
+      <form method="post"  id="formSignup">
+        <h2>Mandalay Gym Membership</h2>
+
+        <label for="package" class="selectbox"> Select a package: </label>
+        <select id="package">
+          <option value="annual">1 year (300000 MMK)</option>
+          <option value="monthly">1 month (30000 MMK)</option>
+        </select>
+        <div id="packageHint" class="tip"></div>
+
+        <input type="checkbox" id="terms" />
+        <label for="terms" class="checkbox"> I agree to terms and conditions</label>
+        <div id="termsHint" class="warning"></div>
+
+        <input type="submit" value="next" />
+
+        </form>
+      </div>
+      <script src="js/gym.js"></script>
+    </body>
+</html>

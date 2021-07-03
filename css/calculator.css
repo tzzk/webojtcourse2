@@ -1,0 +1,28 @@
+.calculator{
+    background-color: blanchedalmond;
+  margin: 10px auto;
+  width: 33%;
+  height: auto;
+  padding:0 20px 0 20px;
+  box-shadow: 2px 2px 5px gray;
+
+    
+}
+button {
+  background-color: #8e9628;
+  font-size: 50px;
+  
+  height: 2.6vw;
+  width: 2.6vw;
+  margin: 10px; 
+  box-shadow: 2px 2px 5px gray;
+  
+  
+}
+textarea {
+  margin: 0px auto;
+  font-size: 2vw;
+  width: 100%;
+  border: none;
+  text-align: right;
+}
